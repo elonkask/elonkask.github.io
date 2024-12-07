@@ -1,56 +1,56 @@
 @font-face {
     font-family: 'CruyffSansMed';
-    src: url(../fonts/cruyffsans-medium.otf) format('opentype');     
+    src: url(https://www.eafc25points.com/assets/fonts/cruyffsans-medium.otf) format('opentype');     
 } 
 @font-face {         
     font-family: 'EAFC CruyffSansExpanded';         
-    src: url(/assets/fonts/ea-sports-fc/CruyffSansExpanded-Heavy.otf) format('opentype');     
+    src: url(https://www.eafc25points.com/assets/fonts/ea-sports-fc/CruyffSansExpanded-Heavy.otf) format('opentype');     
 } 
 @font-face {
     font-family: 'ElectronicArtsDisplay';
-    src: url(../fonts/fonts-ElectronicArtsDisplay-Regular.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsDisplay-Regular.woff2) format('woff');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'ElectronicArtsDisplay';
-    src: url(../fonts/fonts-ElectronicArtsDisplay-Bold.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsDisplay-Bold.woff2) format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-Light.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-Light.woff2) format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-LightItalic.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-LightItalic.woff2) format('woff');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-Regular.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-Regular.woff2) format('woff');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-Italic.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-Italic.woff2) format('woff');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-Bold.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-Bold.woff2) format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'ElectronicArtsText';
-    src: url(../fonts/fonts-ElectronicArtsText-BoldItalic.woff2) format('woff');
+    src: url(https://www.eafc25points.com/assets/fonts/ElectronicArtsText-BoldItalic.woff2) format('woff');
     font-weight: 600;
     font-style: italic;
 }
