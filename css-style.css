@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'CruyffSansMed';
+    src: url(../fonts/cruyffsans-medium.otf) format('opentype');     
+} 
+@font-face {         
+    font-family: 'EAFC CruyffSansExpanded';         
+    src: url(/assets/fonts/ea-sports-fc/CruyffSansExpanded-Heavy.otf) format('opentype');     
+} 
+@font-face {
+    font-family: 'ElectronicArtsDisplay';
+    src: url(../fonts/fonts-ElectronicArtsDisplay-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsDisplay';
+    src: url(../fonts/fonts-ElectronicArtsDisplay-Bold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-Light.woff2) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-LightItalic.woff2) format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-Italic.woff2) format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-Bold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(../fonts/fonts-ElectronicArtsText-BoldItalic.woff2) format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+body{
+    color: #fff;
+    font-family: CruyffSansMed,sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+h1, h2, h3{
+    font-family: EAFC CruyffSansExpanded,sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.text-green{
+    color: #07F468;
+}
+#video-pc{
+    display: block;
+}
+#video-mobile{
+    display: none;
+}
+.video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.home-section{
+    width: 100%;
+    background: #161616;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+.home-form-wrap{
+    width: 600px;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.eapl-hero__logo-sprite, .eapl-hero__mobile-logo-sprite {
+    animation: spriteAnimation both;
+    animation-duration: 2400ms;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(47);
+}
+.eapl-hero__logo-sprite {
+    transform: scale(.4);
+}
+.form-control{
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    color: #fff;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #fff;
+}
+.btn-green{
+    align-items: center;
+    color: #161616;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    padding: 12px 24px;
+}
+.btn-green::before {
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 2px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: bottom 0.1s,left 0.1s,right 0.1s,top 0.1s;
+    z-index: -1;
+    background-color: #07f468;
+    border-color: #07f468;
+}
+.btn-green:hover::before {
+    bottom: -3px;
+    left: -3px;
+    right: -3px;
+    top: -3px;
+}
+.info-section{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 350px;
+    margin-bottom: 15px;
+}
+
+.platform-info{
+    height: 100px;
+}
+.coins-info,
+.points-info{
+    height: 120px;
+}
+
+.btn-game{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    text-align: center;
+    border-radius: 40px;
+}
+.btn-game:hover{
+    color: #07F468;
+    border-color: #07F468;
+}
+
+.custom-loader {
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  padding:6px;
+  background: 
+    radial-gradient(farthest-side,#07F468 95%,#0000) 50% 0/24px 24px no-repeat,
+    radial-gradient(farthest-side,#0000 calc(100% - 10px),#07F468 calc(100% - 8px)) content-box;
+  animation:s6 1s infinite ;
+}
+.recent-activity-section{
+    background-image: url('../images/images-fc24-section-bg-beige-texture-xl.jpg.adapt.1920w.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.platform-activity img{
+    filter: invert(1);
+}
+.slides-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-container {
+  display: flex;
+  width: 200%;
+  animation: bannermove 20s linear infinite;
+}
+.slider-container.slider-container-reverse{
+  animation: bannermovereverse 20s linear infinite;
+}
+
+.slider-container div {
+  width: 100%;
+}
+
+.slider-container ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+.slider-container ul li img{
+    margin: 0 50px;
+}
+.slider-container ul li img{
+    max-height: 130px;
+}
+
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes bannermovereverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes s6 {to{transform: rotate(1turn)}}
+
+@keyframes spriteAnimation{
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .eapl-hero__logo-sprite {
+        transform: scale(.6);
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .eapl-hero__logo-sprite {
+        transform: scale(.8);
+    }
+    .step-4,
+    .step-3{
+        margin: 0 -150px;
+    }
+}
+
+@media only screen and (min-width: 1456px){
+    .eapl-hero__logo-sprite {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 510px){
+    .home-form-wrap {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .home-form-wrap {
+        margin-top: 280px;
+    }
+    .eapl-hero__logo-sprite,
+    #video-pc{
+        display: none;
+    }
+    #video-mobile{
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+}
