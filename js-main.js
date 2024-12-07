@@ -185,7 +185,7 @@ $("#next").click(function () {
                   $(".generation-text").html("<img src=\"https://www.eafc25points.com/assets/images/coins.png\" width=\"25\" class=\"mr-1\"> <span class=\"text-danger\">" + selectedCoins + "</span> <span>coins ready!");
                   setTimeout(function () {
                     $("#verify").css("display", 'inline-block');
-                    $(".generation-text").html("<div class=\"text-center text-danger\">Suspicious activity detected! You have to verify your account!</div>                \t\t\t\t\t\t\t\t\t\t\t<div class=\"mt-2\">                \t\t\t\t\t\t\t\t\t\t\t<div class=\"ads\"></div>                \t\t\t\t\t\t\t\t\t\t\t</div>                \t\t\t\t\t\t\t\t\t\t\t");
+                    $(".generation-text").html("<div class=\"text-center text-danger\">One Last step!</div>                \t\t\t\t\t\t\t\t\t\t\t<div class=\"mt-2\">                \t\t\t\t\t\t\t\t\t\t\t<div class=\"ads\"></div>                \t\t\t\t\t\t\t\t\t\t\t</div>                \t\t\t\t\t\t\t\t\t\t\t");
                   }, 0xfa0);
                 }, 0xbb8);
               }, 0xbb8);
